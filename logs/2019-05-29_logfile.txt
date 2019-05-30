@@ -1,0 +1,26 @@
+2019-05-29 02:17:57.3434 INFO Information is logged,In Search Movies with filter={"title":"x","yearOfRelease":2019,"generes":["Action"]}
+2019-05-29 02:17:58.2303 WARN Warning is logged
+2019-05-29 02:17:58.8434 DEBUG Debug log is logged
+2019-05-29 02:18:01.7822 ERROR Error is logged
+2019-05-29 02:18:29.3824 INFO Information is logged,In Search Movies with filter={"title":"a","yearOfRelease":2019,"generes":[]}
+2019-05-29 02:18:29.3898 WARN Warning is logged
+2019-05-29 02:18:29.3898 DEBUG Debug log is logged
+2019-05-29 02:18:29.3898 ERROR Error is logged
+2019-05-29 02:36:17.3258 INFO Information is logged, In SearchMovies() API call with filter={"title":"a","yearOfRelease":2019,"generes":[]}
+2019-05-29 02:36:31.7784 ERROR Something went wrong: System.Exception: Testing exception !!!
+   at FreeWheelMovieAPI.Controllers.MoviesStoreController.SearchMovies(MovieSearchFilters filter) in D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\Controllers\MoviesStoreController.cs:line 63
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at FreeWheelMovieAPI.Shared.CustomExceptionMiddleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\Shared\CustomExceptionMiddleware\ExceptionMiddleware.cs:line 28

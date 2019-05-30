@@ -1,0 +1,14 @@
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2\FreeWheelMovieAPI.deps.json
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2\FreeWheelMovieAPI.runtimeconfig.json
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2\FreeWheelMovieAPI.runtimeconfig.dev.json
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2\FreeWheelMovieAPI.dll
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2\FreeWheelMovieAPI.pdb
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.csprojAssemblyReference.cache
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.csproj.CoreCompileInputs.cache
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.RazorAssemblyInfo.cache
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.RazorAssemblyInfo.cs
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.AssemblyInfoInputs.cache
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.AssemblyInfo.cs
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.RazorTargetAssemblyInfo.cache
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.dll
+D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\obj\Debug\netcoreapp2.2\FreeWheelMovieAPI.pdb

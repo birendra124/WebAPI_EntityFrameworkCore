@@ -1,0 +1,298 @@
+2019-05-29 02:15:58.0819 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-05-29 02:15:58.1873 Debug Found assembly location directory: 'C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-05-29 02:15:58.1873 Debug Search for auto loading files in location: C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0
+2019-05-29 02:15:58.1873 Debug Found assembly location directory: 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2' (FreeWheelMovieAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-05-29 02:15:58.1873 Debug Search for auto loading files in location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:15:58.1873 Debug Auto loading based on AppDomain-BaseDirectory found location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:15:58.1873 Debug Search for auto loading files in location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:15:58.1873 Debug Start auto loading, location: C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0
+2019-05-29 02:15:58.2008 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-05-29 02:15:58.2008 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-05-29 02:15:58.2008 Debug Auto loading done
+2019-05-29 02:15:58.2008 Info Message Template Auto Format enabled
+2019-05-29 02:15:58.2210 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2210 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:15:58.2210 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-05-29 02:15:58.2551 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-05-29 02:15:58.2551 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2551 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.2551 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2551 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:15:58.2551 Trace  Scanning Property Culture '' System.Globalization
+2019-05-29 02:15:58.2551 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:15:58.2551 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:15:58.2614 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.2614 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:15:58.2614 Debug Setting 'FileTarget.name' to 'logfile'
+2019-05-29 02:15:58.2614 Debug Setting 'FileTarget.fileName' to 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:15:58.2614 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:15:58.2614 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-05-29 02:15:58.2614 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:15:58.2614 Trace  Scanning Property Culture '' System.Globalization
+2019-05-29 02:15:58.2614 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:15:58.2614 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:15:58.2614 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.2614 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.2614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:15:58.2614 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:15:58.2614 Info Adding target FileTarget(Name=logfile)
+2019-05-29 02:15:58.2781 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-05-29 02:15:58.2781 Trace ParseRulesElement
+2019-05-29 02:15:58.2781 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-05-29 02:15:58.2937 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-05-29 02:15:58.2937 Debug Watching path 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI' filter 'nlog.config' for changes.
+2019-05-29 02:15:58.2937 Debug --- NLog configuration dump ---
+2019-05-29 02:15:58.2937 Debug Targets:
+2019-05-29 02:15:58.2937 Debug File Target[logfile]
+2019-05-29 02:15:58.2937 Debug Rules:
+2019-05-29 02:15:58.2937 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-05-29 02:15:58.2937 Debug --- End of NLog configuration dump ---
+2019-05-29 02:15:58.3091 Trace FindReachableObject<System.Object>:
+2019-05-29 02:15:58.3091 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-05-29 02:15:58.3091 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-05-29 02:15:58.3091 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-05-29 02:15:58.3091 Trace   Scanning Property FileName ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-05-29 02:15:58.3091 Trace   Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:15:58.3091 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3091 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3091 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:15:58.3091 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3091 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-05-29 02:15:58.3091 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:15:58.3091 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3091 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:15:58.3091 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3091 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:15:58.3091 Trace     Scanning Property Culture '' System.Globalization
+2019-05-29 02:15:58.3091 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:15:58.3091 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:15:58.3091 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3091 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.3091 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3091 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:15:58.3091 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-05-29 02:15:58.3091 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-05-29 02:15:58.3091 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-05-29 02:15:58.3091 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-05-29 02:15:58.3091 Info Found 14 configuration items
+2019-05-29 02:15:58.3091 Trace Initializing Layout Renderer: ${message}
+2019-05-29 02:15:58.3091 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:15:58.3091 Trace Initializing Layout Renderer: ${level}
+2019-05-29 02:15:58.3091 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-05-29 02:15:58.3091 Trace FindReachableObject<System.Object>:
+2019-05-29 02:15:58.3241 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:15:58.3241 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3241 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${uppercase}
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${longdate}
+2019-05-29 02:15:58.3241 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-05-29 02:15:58.3241 Trace FindReachableObject<System.Object>:
+2019-05-29 02:15:58.3241 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:15:58.3241 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3241 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:15:58.3241 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3241 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:15:58.3241 Trace   Scanning Property Culture '' System.Globalization
+2019-05-29 02:15:58.3241 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:15:58.3241 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:15:58.3241 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3241 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:15:58.3241 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3241 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${shortdate}
+2019-05-29 02:15:58.3241 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:15:58.3241 Trace Initializing 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'
+2019-05-29 02:15:58.3241 Trace FindReachableObject<System.Object>:
+2019-05-29 02:15:58.3241 Trace Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:15:58.3241 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:15:58.3241 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3241 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:15:58.3241 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:15:58.3241 Trace Initializing File Target[logfile]
+2019-05-29 02:15:58.3241 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-05-29 02:15:58.3241 Trace Scanning FileTarget 'File Target[logfile]'
+2019-05-29 02:15:58.3241 Trace  Scanning Property FileName ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-05-29 02:15:58.3241 Trace  Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:15:58.3241 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-05-29 02:15:58.3241 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:15:58.3400 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-05-29 02:15:58.3400 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-05-29 02:15:58.3400 Trace File Target[logfile] has 2 layouts
+2019-05-29 02:15:58.3400 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-05-29 02:17:57.3373 Debug Targets for FreeWheelMovieAPI.Shared.LoggerManager by level:
+2019-05-29 02:17:57.3373 Debug Trace =>
+2019-05-29 02:17:57.3373 Debug Debug => logfile
+2019-05-29 02:17:57.3434 Debug Info => logfile
+2019-05-29 02:17:57.3434 Debug Warn => logfile
+2019-05-29 02:17:57.3434 Debug Error => logfile
+2019-05-29 02:17:57.3434 Debug Fatal => logfile
+2019-05-29 02:17:57.3690 Debug FileTarget(Name=logfile): Process file 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt' on startup
+2019-05-29 02:17:57.3769 Debug Creating file appender: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt
+2019-05-29 02:17:57.3769 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:17:58.2303 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:17:58.8434 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:18:01.7822 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:18:29.3824 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:18:29.3898 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:18:29.3898 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:18:29.3898 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:36:07.8653 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-05-29 02:36:07.9520 Debug Found assembly location directory: 'C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-05-29 02:36:07.9520 Debug Search for auto loading files in location: C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0
+2019-05-29 02:36:07.9520 Debug Found assembly location directory: 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2' (FreeWheelMovieAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-05-29 02:36:07.9520 Debug Search for auto loading files in location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:36:07.9520 Debug Auto loading based on AppDomain-BaseDirectory found location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:36:07.9520 Debug Search for auto loading files in location: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI\bin\Debug\netcoreapp2.2
+2019-05-29 02:36:07.9520 Debug Start auto loading, location: C:\Users\birendra\.nuget\packages\nlog\4.6.3\lib\netstandard2.0
+2019-05-29 02:36:07.9520 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-05-29 02:36:07.9520 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-05-29 02:36:07.9520 Debug Auto loading done
+2019-05-29 02:36:07.9520 Info Message Template Auto Format enabled
+2019-05-29 02:36:07.9799 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:07.9799 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:36:07.9799 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-05-29 02:36:08.0063 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-05-29 02:36:08.0063 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0063 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0063 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0063 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:36:08.0063 Trace  Scanning Property Culture '' System.Globalization
+2019-05-29 02:36:08.0119 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:36:08.0119 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:36:08.0119 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0119 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:36:08.0119 Debug Setting 'FileTarget.name' to 'logfile'
+2019-05-29 02:36:08.0119 Debug Setting 'FileTarget.fileName' to 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:36:08.0119 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:36:08.0119 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-05-29 02:36:08.0119 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0119 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0119 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:36:08.0269 Trace  Scanning Property Culture '' System.Globalization
+2019-05-29 02:36:08.0269 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:36:08.0269 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:36:08.0269 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0269 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0269 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-05-29 02:36:08.0269 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:36:08.0269 Info Adding target FileTarget(Name=logfile)
+2019-05-29 02:36:08.0269 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-05-29 02:36:08.0269 Trace ParseRulesElement
+2019-05-29 02:36:08.0269 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-05-29 02:36:08.0474 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-05-29 02:36:08.0474 Debug Watching path 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI' filter 'nlog.config' for changes.
+2019-05-29 02:36:08.0474 Debug --- NLog configuration dump ---
+2019-05-29 02:36:08.0474 Debug Targets:
+2019-05-29 02:36:08.0474 Debug File Target[logfile]
+2019-05-29 02:36:08.0474 Debug Rules:
+2019-05-29 02:36:08.0602 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-05-29 02:36:08.0602 Debug --- End of NLog configuration dump ---
+2019-05-29 02:36:08.0602 Trace FindReachableObject<System.Object>:
+2019-05-29 02:36:08.0602 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-05-29 02:36:08.0602 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-05-29 02:36:08.0602 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-05-29 02:36:08.0602 Trace   Scanning Property FileName ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-05-29 02:36:08.0602 Trace   Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:36:08.0602 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0602 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:36:08.0602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0602 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-05-29 02:36:08.0602 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:36:08.0602 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0602 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:36:08.0602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0602 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:36:08.0602 Trace     Scanning Property Culture '' System.Globalization
+2019-05-29 02:36:08.0602 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:36:08.0602 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:36:08.0602 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0602 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0738 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0738 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:36:08.0738 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-05-29 02:36:08.0738 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-05-29 02:36:08.0738 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-05-29 02:36:08.0738 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-05-29 02:36:08.0738 Info Found 14 configuration items
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${message}
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${level}
+2019-05-29 02:36:08.0738 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-05-29 02:36:08.0738 Trace FindReachableObject<System.Object>:
+2019-05-29 02:36:08.0738 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:36:08.0738 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0738 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${uppercase}
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:36:08.0738 Trace Initializing Layout Renderer: ${longdate}
+2019-05-29 02:36:08.0738 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-05-29 02:36:08.0738 Trace FindReachableObject<System.Object>:
+2019-05-29 02:36:08.0738 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:36:08.0898 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0898 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-05-29 02:36:08.0898 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0898 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-05-29 02:36:08.0898 Trace   Scanning Property Culture '' System.Globalization
+2019-05-29 02:36:08.0898 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-05-29 02:36:08.0898 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-05-29 02:36:08.0898 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0898 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-05-29 02:36:08.0898 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0898 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-05-29 02:36:08.0898 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:36:08.0898 Trace Initializing Layout Renderer: ${shortdate}
+2019-05-29 02:36:08.0898 Trace Initializing Layout Renderer: ${literal}
+2019-05-29 02:36:08.0898 Trace Initializing 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'
+2019-05-29 02:36:08.0898 Trace FindReachableObject<System.Object>:
+2019-05-29 02:36:08.0898 Trace Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:36:08.0898 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-05-29 02:36:08.0898 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0898 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-05-29 02:36:08.0898 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-05-29 02:36:08.0898 Trace Initializing File Target[logfile]
+2019-05-29 02:36:08.0898 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-05-29 02:36:08.0898 Trace Scanning FileTarget 'File Target[logfile]'
+2019-05-29 02:36:08.0898 Trace  Scanning Property FileName ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-05-29 02:36:08.0898 Trace  Scanning SimpleLayout ''D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/${shortdate}_logfile.txt''
+2019-05-29 02:36:08.0898 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-05-29 02:36:08.0898 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-05-29 02:36:08.0898 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-05-29 02:36:08.0898 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-05-29 02:36:08.0898 Trace File Target[logfile] has 2 layouts
+2019-05-29 02:36:08.1059 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-05-29 02:36:17.3124 Debug Targets for FreeWheelMovieAPI.Shared.LoggerManager by level:
+2019-05-29 02:36:17.3124 Debug Trace =>
+2019-05-29 02:36:17.3124 Debug Debug => logfile
+2019-05-29 02:36:17.3124 Debug Info => logfile
+2019-05-29 02:36:17.3124 Debug Warn => logfile
+2019-05-29 02:36:17.3124 Debug Error => logfile
+2019-05-29 02:36:17.3124 Debug Fatal => logfile
+2019-05-29 02:36:17.3452 Debug FileTarget(Name=logfile): Process file 'D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt' on startup
+2019-05-29 02:36:17.3452 Debug Creating file appender: D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt
+2019-05-29 02:36:17.3561 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
+2019-05-29 02:36:31.7784 Trace Opening D:\CapOneData\Projects\FreeWheelMovieAPI\FreeWheelMovieAPI/logs/2019-05-29_logfile.txt with allowFileSharedWriting=False
